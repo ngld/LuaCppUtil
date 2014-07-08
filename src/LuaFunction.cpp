@@ -1,6 +1,9 @@
+extern "C" {
+	#include <lua.h>
+}
+
 #include "LuaCpp/LuaFunction.hpp"
 #include "LuaCpp/LuaException.hpp"
-
 #include "LuaCpp/LuaHeaders.hpp"
 
 namespace luacpp
